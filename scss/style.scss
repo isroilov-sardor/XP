@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    body {
+        font-family: "Inter";
+    }
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.header {
+    padding-top: 30px;
+    background-image: url(../images/fon-site.png);
+    width: 1510px;
+    height: 1040px;
+    margin: 0 auto;
+    background-color: #043c4e;
+    margin-bottom: 200px;
+    .head-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    position: relative;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    .nav-list a {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.78px;
+        text-decoration: none;
+        color: rgba(161, 181, 187, 1);
+        transition: 1s;
+    }
+}
+.nav-list a:hover {
+    color: rgba(255, 166, 58, 1);
+    transition: 1s;
+}
+.head-but {
+    width: 140px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: rgba(255, 255, 255, 1);
+    padding: 14px 35px;
+    background-color: rgba(20, 94, 118, 1);
+    border-radius: 25px;
+    border: none;
+    transition: 3s;
+    cursor: pointer;
+}
+.head-but:hover {
+    background-color: rgba(255, 166, 58, 1);
+    color: black;
+    transform: translateX(40px);
+    transition: 3s;
+}
+// Middle
+.midle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.midle-left {
+    .mid-info {
+        width: 195px;
+        border-radius: 30px;
+        padding: 16px 30px;
+        background-color: rgba(9, 69, 86, 1);
+        font-family: "Schoolbell";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.42px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 40px;
+        transition: 1s;
+    }
+    .mid-desc {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 30px;
+    }
+    .mid-title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        color: rgba(132, 148, 153, 1);
+        margin-bottom: 50px;
+    }
+}
+.mid-info:hover {
+    background-color: rgba(255, 166, 58, 1);
+    transition: 1s;
+}
+.mid-seconds {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    .mid-but {
+        width: 150px;
+        padding: 16px 35px;
+        background-color: rgba(255, 166, 58, 1);
+        border-radius: 25px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28.8px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .mid-sec-link {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28.8px;
+        color: rgba(182, 205, 212, 1);
+        text-decoration: none;
+    }
+}
+.mid-but:hover {
+    background-color: rgba(9, 69, 86, 1);
+    transition: 1s;
+}
+.midle-right {
+    position: relative;
+    .mid-vector {
+        position: absolute;
+        width: 450px;
+        height: 575px;
+        border-radius: 300px 300px 0px 0px;
+        background-color: rgba(133, 161, 170, 1);
+        border: 20px solid rgba(38, 90, 106, 1);
+        bottom: 5px;
+        right: 50px;
+    }
+    .mid-right-img {
+        position: relative;
+        z-index: 1;
+    }
+}
+.coment {
+    position: relative;
+}
+.coment-container {
+    padding: 20px 28px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.08);
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 240px;
+    z-index: 2;
+    .coment-about {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .coment-title {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 15px;
+    }
+}
+.coment-info {
+    .comenter-desc {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22.4px;
+        letter-spacing: 0.05em;
+        color: rgba(255, 255, 255, 1);
+    }
+    .comenter-info {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(161, 181, 187, 1);
+    }
+}
+// Statics
+.static-container {
+    padding: 78px 218px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    -webkit-box-shadow: 2px 20px 41px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 20px 41px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 20px 41px -5px rgba(0, 0, 0, 0.75);
+    .status {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    .static-h {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: rgba(38, 90, 106, 1);
+        margin-bottom: 69px;
+    }
+}
+.status-desc {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: rgba(38, 90, 106, 1);
+    margin-bottom: 29px;
+    text-align: center;
+}
+.status-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(8, 84, 108, 1);
+}
+.end-container {
+    margin-top: 350px;
+    margin-bottom: 100px;
+    text-align: center;
+
+    .end-link {
+        font-family: "Schoolbell";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: center;
+        color: rgba(38, 90, 106, 1);
+    }
+    .end-desc {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 60px;
+        color: rgba(8, 84, 108, 1);
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+}
+.end-choose {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 26px;
+    .chose1 {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 30px 28px 34px 30px;
+        -webkit-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+    }
+    .chose2 {
+        padding: 32px 29px;
+        -webkit-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        background-color: rgba(8, 84, 108, 1);
+        cursor: pointer;
+    }
+    .chose3 {
+        padding: 32px 29px;
+        -webkit-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+    .chose4 {
+        padding: 32px 29px;
+        -webkit-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        box-shadow: -3px 26px 36px -34px rgba(0, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+}
+.chose-desc {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: rgba(15, 18, 33, 1);
+}
+.chose-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: rgba(105, 105, 105, 1);
+}
+.chose-desc2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: rgb(255, 255, 255);
+}
+.chose-title2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: rgba(178, 187, 189, 1);
+}
+@media screen and (max-width:1200px) {
+    
+}
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:768px) {
+    
+}
+@media screen and (max-width:576px) {
+    
+}
